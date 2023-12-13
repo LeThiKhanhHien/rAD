@@ -1,4 +1,5 @@
 # sklearn implementation for shallow rAD using the second risk estimator
+# written by LTK Hien, 2023
 import numpy as np
 from sklearn.metrics.pairwise import pairwise_kernels
 from sklearn.kernel_approximation import RBFSampler, PolynomialCountSketch, Nystroem
