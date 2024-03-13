@@ -32,10 +32,6 @@ def main(exp_config):
 
     config.settings['log_path'] = config.settings['log_path'] + '/' + config.settings['experiment']
     config.settings['model_path'] = config.settings['model_path'] + '/'
-    config.settings['output_path'] = config.settings['output_path'] + '/' + config.settings['experiment']
-
-    if not Path.exists(Path(config.settings['output_path'])):
-        Path.mkdir(Path(config.settings['output_path']), parents=True, exist_ok=True)
 
     # Set up logger
     if not Path.exists(Path(config.settings['log_path'])):

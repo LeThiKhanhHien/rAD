@@ -37,7 +37,6 @@ class rADTrainer():
         self.device = config.settings['device']
         self.n_jobs_dataloader = config.settings['n_jobs_dataloader']
         self.risk_estimator = config.settings['risk_estimator']
-        self.output_path = Path(config.settings['output_path'])
 
         self.lr_milestones = config.settings['lr_milestones']
 
@@ -234,8 +233,8 @@ class rADTrainer():
 
         test_time = time.time() - start_time
 
-        self.logger.info('Testing Time: {:.3f}\t Loss: {:.8f}\t Accuracy {:.8f}\t AUROC {:.8f}'
-                    .format(test_time, sum(test_loss)/len(test_loss), correct/len(test_labels), auc_score))
+        self.logger.info('Testing Time: {:.3f}\t Loss: {:.8f}\t AUROC {:.8f}'
+                    .format(test_time, sum(test_loss)/len(test_loss), auc_score))
 
         self.logger.info('Finished testing.')
 
