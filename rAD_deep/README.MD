@@ -2,8 +2,8 @@
 
 This is the official repository for "Anomaly detection with semi-supervised classification based on risk estimators" using a deep neural network.
 
-> [**Anomaly detection with semi-supervised classification based on risk estimators**](https://arxiv.org/abs/2309.00379)
-> Le Thi Khanh Hien, Sukanya Patra, Souhaib Ben Taieb
+> [**Anomaly detection with semi-supervised classification based on risk estimators**](https://arxiv.org/abs/2309.00379)  
+> Le Thi Khanh Hien, Sukanya Patra, Souhaib Ben Taieb  
 > Transactions on Machine Learning Research (TMLR), 2024
 
 ## Abstract
