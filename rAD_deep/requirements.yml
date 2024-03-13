@@ -1,0 +1,19 @@
+name: rAD
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - matplotlib
+  - seaborn
+  - numpy
+  - pandas
+  - tqdm
+  - click
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - pytorch=1.11.0
+  - torchvision=0.12.0
+  - cudatoolkit=11.3
