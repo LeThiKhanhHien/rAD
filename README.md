@@ -1,6 +1,6 @@
 # Anomaly detection with semi-supervised classification based on risk estimators (rAD)
 
-> [**Anomaly detection with semi-supervised classification based on risk estimators**](https://arxiv.org/abs/2309.00379)  
+> [**Anomaly detection with semi-supervised classification based on risk estimators**](https://openreview.net/forum?id=ekvsBtCBUK)  
 > Le Thi Khanh Hien, Sukanya Patra, Souhaib Ben Taieb  
 > Transactions on Machine Learning Research (TMLR), 2024
 
